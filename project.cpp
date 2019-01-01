@@ -1,5 +1,5 @@
 /* Name : 1-Muhammad  Mahmoud Attia 
-          2- abdelrahman mohammed yiha */
+          2- abdelrahman mohammed yeiha */
 #include <bits/stdc++.h>
 using namespace std;
 //data type
@@ -13,7 +13,7 @@ using namespace std;
 void add()
 {
 	fstream file;
-
+//create file txt call it data then open it
 		file.open("data.txt",ios::out|ios::app|ios::binary);
 		cout<<"enter ID : ";
 		cin>>id;
@@ -34,6 +34,7 @@ void delet (){
   ifstream file;
   ofstream temp;
   file.open("data.txt",ios::in|ios::out|ios::binary);
+//create file txt call it temp then open it
   temp.open("temp.txt");
   while (getline(file, line))
   {
